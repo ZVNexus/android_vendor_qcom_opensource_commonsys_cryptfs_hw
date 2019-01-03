@@ -49,7 +49,7 @@ using ::android::hardware::Void;
 #define QTI_ICE_STORAGE_UFS				1
 #define QTI_ICE_STORAGE_SDCC				2
 
-int set_ice_param(int flag)
+int set_ice_param(__unused int flag)
 {
     int rc = -1;
     sp<ICryptfsHw> cryptfshwService = ICryptfsHw::getService();
